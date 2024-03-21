@@ -35,12 +35,10 @@ section{
     border-radius: 5%;
 
 }
-.place{
-    width: 50%
- }
+
 .text{
     background-color: white;
-    opacity: 0.2;
+    opacity: 0.9;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
