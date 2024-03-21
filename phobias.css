@@ -1,8 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("alienspider.jpg");
-    background-size: cover;
-    background-position: center center;
     color: #00ff00;
     text-align: center;
     margin: 0;
@@ -27,4 +24,27 @@ p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 30px;
+}
+section{
+    background: url("alienspider.jpg");
+    background-repeat: no-repeat;
+    max-width: 80%;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5%;
+
+}
+.place{
+    width: 50%
+ }
+.text{
+    background-color: white;
+    opacity: 0.2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+
+
 }
