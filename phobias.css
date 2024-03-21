@@ -4,10 +4,13 @@ body {
     background-size: cover;
     background-position: center center;
     color: #00ff00;
- 
+    text-align: center;
     margin: 0;
     padding: 0;
+}img {
+    border-radius: 10%; /* This will make the border of the image completely round */
 }
+
 .container {
     text-align: center;
     padding: 50px; /* Add some padding for better readability */
@@ -15,32 +18,9 @@ body {
 h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    text-align: center;
 }
 p {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 30px;
-}
-section{
-    background: url("alienspider.jpg");
-    background-repeat: no-repeat;
-    max-width: 80%;
-    width: 600px;
-    display: flex;
-    flex-direction: row;
-    border-radius: 5%;
-
-}
-.place{
-    width: 50%
- }
-.text{
-    background-color: rgba(white, white, white, 0.3);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 50%;
-
-
 }
