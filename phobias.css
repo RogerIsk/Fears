@@ -10,7 +10,7 @@ body {
 .white-background {
     background-color: rgba(0, 0, 0, 0.822);
     padding: 10px; /* Add padding for better readability */
-    border-radius: 50%;
+    border-radius: 20%;
 }
 .container {
     text-align: center;
